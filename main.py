@@ -20,5 +20,5 @@ for i in range(len(names_content)):
 for i in range(len(name_list)):
     letter_ready_to_send = letter_content.replace("[name]", name_list[i])
     
-    with open(f"./Output/ReadyToSend/letter_for_{name_list[i]}.txt", "w") as file:
+    with open(f"./Output/ReadyToSend/letter_for_{name_list[i]}_2.txt", "w") as file:
         letter_ready_to_send = file.write(letter_ready_to_send)
